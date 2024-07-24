@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixel Positions</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600..900;&display=swap"
+        rel="stylesheet">
     @vite(['resources/js/app.js', 'resources/css/app.css'])
 </head>
+
 <body class="bg-black text-white">
     <div class="px-10 ">
         <nav class="flex justify-between items-center bg-red py-4 border-b border-white/10">
@@ -29,4 +33,5 @@
         </main>
     </div>
 </body>
+
 </html>
