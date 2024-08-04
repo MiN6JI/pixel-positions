@@ -20,8 +20,6 @@ it('it belong to employer', function () {
 
 
 it('can have tags', function () {
-
-    //AAA
     $job = Job::factory()->create();
 
     $job->tag('Frontend');
