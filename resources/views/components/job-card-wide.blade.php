@@ -1,4 +1,4 @@
-@props(['job']);
+@props(['job'])
 
 <x-panel class="flex flex flex-column gap-x-6">
     <div>
@@ -6,10 +6,10 @@
     </div>
 
     <div class="flex-1 flex flex-col">
-        <a href="#" class="self-start text-sm text-gray-400">Laracasts</a>
+        <a href="#" class="self-start text-sm text-gray-400">{{$job->employer->name}}</a>
 
-        <h3 class="font-bold mt-3 text-xl group-hover:text-blue-600 transition-colors duration-300">Video Producer</h3>
-        <p class="text-sm text-gray-400 mt-auto">Full Time - Form $60,000</p>
+        <h3 class="font-bold mt-3 text-xl group-hover:text-blue-600 transition-colors duration-300">{{$job->title}}</h3>
+        <p class="text-sm text-gray-400 mt-auto">{{$job->salary}}</p>
     </div>
 
     <div>
